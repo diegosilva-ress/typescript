@@ -58,3 +58,11 @@ const country: string = "Brasil";
 let x: number | boolean;
 x = 10; // x pode ser um numero
 x = true; // x pode ser um booleano
+
+let numero: number = 1;
+let texto: string = "1";
+
+// @ts-ignore
+console.log(numero == texto); // true, porque o operador == faz conversao de tipos antes de comparar os valores
+// @ts-ignore
+console.log(numero === texto); // false, porque numero é do tipo number e texto é do tipo string
