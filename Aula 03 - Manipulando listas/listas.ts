@@ -1,6 +1,3 @@
-//npx tsc
-//node "Aula 03 - Manipulando listas/listas.js"
-
 let numeros: number[] = [1, 2, 3, 4, 5];
 console.log(numeros);
 console.log(numeros.indexOf(3)); // Retorna o indice do numero 3

@@ -53,3 +53,8 @@ currentAge = 26;
 
 const country: string = "Brasil";
 // country = "Argentina"; // Erro: uma constante nao pode receber outro valor
+
+// Exemplo de variavel com tipo union, que pode ser number ou boolean
+let x: number | boolean;
+x = 10; // x pode ser um numero
+x = true; // x pode ser um booleano
